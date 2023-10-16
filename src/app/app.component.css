@@ -1,0 +1,39 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    background-color: red;
+}
+
+.titl {
+    background-image: url("https://cdn.dribbble.com/users/39141/screenshots/4370017/01_copy_195.gif");
+    color: transparent;
+    background-clip: text;
+}
+
+.button{
+    background-color: black;
+    width: 200px;
+    height: 75px;
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    border-style: none;
+}
+.button:active {
+    border-color: red;
+}
+.cont {
+    
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+
+.ba {
+    border: 5px border blue;
+}

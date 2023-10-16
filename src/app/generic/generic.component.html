@@ -1,0 +1,22 @@
+<div style="display: flex; width: 120%;">
+    
+    <div style="overflow-y: scroll; height: 100vh;">
+        <div *ngFor = "let a of classes">
+            <div class="container" style="width: 250px; margin-left: 0%;">
+                <div class="btn"><a (click)="getMovements(a)">{{a}}</a></div>
+        
+            </div>	
+        </div>
+    </div>
+    
+    <div style="display: list-item; padding-left: 10%; padding-top: 10%;">
+        <div *ngFor = "let a of movements" style="border: 1px solid red;height: fit-content;">
+            <h4>
+                {{a.name}}
+                {{a.cognome}}
+                {{(a.entrata ? "Entrata" : "Uscita &nbsp;") + " alle "}}
+                {{a.orario}}
+            </h4>
+        </div> 
+    </div>
+</div>
